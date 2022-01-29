@@ -1,5 +1,15 @@
 import java.util.Scanner;
 
+/* Template for Java
+
+public class Program {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        sc.close();
+    }
+}
+*/
 /* Java Inheritence 
 class Animal {
     void eat() {
@@ -103,7 +113,7 @@ public class Program {
     }
 }
 */
-
+/*
 public class Program {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -111,3 +121,4 @@ public class Program {
         sc.close();
     }
 }
+*/
