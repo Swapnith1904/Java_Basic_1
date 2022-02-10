@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.*;
+
 /* Template for Java
 
 public class Program {
@@ -133,7 +134,7 @@ public class Program {
 }
 */
 //Java Program to print Palindrome
- public class Program {
+public class Program {
     public static void main(String[] args) {
         int sum = 0, rem;
         Scanner sc = new Scanner(System.in);
