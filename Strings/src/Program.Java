@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+import java.util.*;
 /* Template for Java
 
 public class Program {
@@ -113,11 +113,43 @@ public class Program {
     }
 }
 */
-
+/*Java Program to print Fibonacci Series
 public class Program {
     public static void main(String[] args) {
+         int n1=0,n2=1;
         Scanner sc = new Scanner(System.in);
-
+        System.out.println("Enter the size of n");
+        int n=sc.nextInt();
         sc.close(); 
+        System.out.printf(n1+" "+n2);
+        for(int i = 2;i<n;i++)
+        {
+            int n3=n1+n2;
+            System.out.printf(" "+n3);
+            n1=n2;
+            n2=n3;
+        }
+    }
+}
+*/
+//Java Program to print Palindrome
+ public class Program {
+    public static void main(String[] args) {
+        int sum = 0, rem;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the Value of n");
+        int n = sc.nextInt();
+        sc.close();
+        int temp = n;
+        while (n > 0) {
+            rem = n % 10;
+            sum = (sum * 10) + rem;
+            n = n / 10;
+        }
+        if (temp == sum) {
+            System.out.println("Given number is Palindrome");
+        } else {
+            System.out.println("Given number is not palindrome");
+        }
     }
 }
